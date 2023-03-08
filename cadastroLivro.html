@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="cadastroLivro.css">
+    <title>Cadastro de Livros</title>
+</head>
+
+<body>
+    <header>
+        <p id="tituloCabecalho">Cadastro de Livros</p>
+        <nav>
+            <button id="index">
+                <a id="linkIndex" href="index.html">Página Inicial</a>
+            </button>
+        </nav>
+    </header>
+    <div id="branco">
+        <form id="formulario">
+            
+            <div>
+                <label for="titulo">Título</label><br>
+                <input type="text" name="titulo" id="titulo" required >
+            </div>
+
+            <div>
+                <label for="autor">Autor</label><br>
+                <input type="text" name="autor" id="autor" required>
+            </div>
+
+
+            <div>
+                <label for="capa">Capa do Livro</label><br>
+                <input type="file" name="capa" id="capa" accept="image/*" required>
+            </div>
+
+            <div>
+                <label for="descricao">Descrição</label><br>
+                <textarea rows="6" name="descricao" id="descricao" required></textarea>
+            </div>
+            
+            <div>
+                <button type="submit" id="botaoSubmit" onclick='enviarValores();'>
+                    Enviar 
+                </button>
+            </div>
+            
+        </form>
+    </div>
+    <script src="cadastroLivro.js"></script>
+    <script>
+        
+    </script>
+</body>
+
+</html>

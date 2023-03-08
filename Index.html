@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Biblioteca</title>
+</head>
+<body>
+    <header id="header">
+        <img id="logo" src="./Logo/logo.PNG">
+        <p id="nomeSite">Biblioteca</p>
+
+        <nav>
+            <button onclick="sair()" id="links">
+                <a id="login" href="Login.html">SAIR</a>
+            </button>
+        </nav>
+
+        <nav>
+            <button id="cadLivro">
+                <a id="linkCadLivro" href="cadastroLivro.html">CADASTRO DE LIVROS</a>
+            </button>
+        </nav>
+    </header>
+    
+    <div id="linhaOrange">
+        <form class="form-search">
+            <input class="form-control m-auto" name="search" type="text" placeholder="Digite o que deseja buscar">
+        </form>
+
+        <section class="flex">
+            <ul class="flex todos-container list-group">
+
+                <li class="list-group-item d-flex">
+                    <div>
+                        <a href="livro1.html">
+                            <img src="./Livros/livro1.PNG">
+                            <p>Computação Gráfica</p>
+                        </a>
+                    </div>
+                </li>
+
+                <li class="list-group-item d-flex">
+                    <div>
+                        <a href="livro2.html">
+                            <img src="./Livros/Livro2.PNG">
+                            <p>Introdução à Computação e Informação Quântica</p>
+                        </a>
+                        
+                    </div>
+                </li>
+
+                <li class="list-group-item d-flex">
+                    <div>
+                        <a href="livro3.html">
+                            <img src="./Livros/Livro3.PNG">
+                            <p>Introdução à Ciência<br>da Computação</p>
+                        </a>
+                    </div>
+                </li>
+
+                <li class="list-group-item d-flex">
+                    <div>
+                        <a href="livro4.html">
+                            <img src="./Livros/Livro4.PNG">
+                            <p>Sistemas Operacionais</p>
+                        </a>
+                    </div>
+                </li>
+
+                <li class="list-group-item d-flex">
+                    <div>
+                        <a href="livro5.html">
+                            <img src="./Livros/Livro5.PNG">
+                            <p>Engenharia de Software: Uma Abordagem Profissional</p>
+                        </a>
+                    </div>
+                </li>
+
+                <li class="list-group-item d-flex">
+                    <div>
+                        <a href="livro6.html">
+                            <img src="./Livros/Livro6.PNG">
+                            <p>Análise de Tráfego em Redes TCP/IP</p>
+                        </a>
+                    </div>
+                </li>
+
+                <li class="list-group-item d-flex">
+                    <div id="livro4">
+                        <a href="livro7.html">
+                            <img id="imgPreview" src="">
+                        </a>
+                        <a id="tituloLivro" href="livro7.html"></a><br><br>
+                    </div>
+                </li>
+
+            </ul>        
+        </section>
+    </div>
+	<div id="brancoDoCantinho"></div>
+    <script src="index.js"></script>
+    <script>
+        document.getElementById("tituloLivro").innerHTML = localStorage.getItem("titulo");
+    </script>
+    
+
+    
+</body>
+</html>

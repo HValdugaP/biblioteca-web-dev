@@ -1,0 +1,162 @@
+body {
+    background: white;
+}
+
+#header{
+    width: 100%;
+    height: 150px;
+    background: rgb(159, 153, 153);
+    display:inline-block;
+}
+
+#nomeSite{
+    margin-left: 150px;
+    margin-top: 60px;
+    font-size: 35px;
+    color: white;
+}
+
+
+#links{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 90%;
+    margin-top: -25px;
+    color: white;
+    background: orange;
+    position: absolute; 
+    
+    
+}
+
+#configUser{
+    position: absolute;
+    color: white;
+    background: orange;
+    margin-left: 53%;
+    border-radius: 10px;
+    margin-top: -25px;
+    height: 40px;
+    width: 300px;
+}
+
+#linkConfigUser{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+
+#login{
+    text-decoration: none;
+    font-weight:bold;
+    color: black;
+    font-size: 15px;
+}
+
+#cadLivro {
+    position: absolute;
+    color: white;
+    background: orange;
+    margin-left: 75%;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -25px;
+    height: 40px;
+    width: 200px;
+}
+
+#linkCadLivro {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+
+#linhaOrange{
+    width: 100%;
+    height: 10px;
+    background: orangered;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+    margin-top: 25px;
+    position: absolute;
+    border-radius: 15px;
+    
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+
+
+.form-search {
+    padding-top: 75px;
+    margin-left: 20%;
+    height: 100px;
+    width: 40%;
+    
+}
+
+input[type=text] {
+    width: 150%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 15px;
+    box-shadow: 0 0 3px black;
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+    
+}
+
+.flex > div {
+    flex: 1 1 30%;
+    margin: 10px;
+    flex-grow: 0;
+
+}
+
+.flex > li {
+    flex: 1 1 30%;
+    margin: 10px;
+    flex-grow: 0;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    padding-top: 5px;
+
+}
+
+.flex a {
+    text-decoration: none;
+}
+
+div p {
+    margin-top: 5px;
+}
+
+#imgPreview {
+    margin-bottom: 5px;
+}
+
+.hidden {
+    display: none;
+}

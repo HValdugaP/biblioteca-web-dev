@@ -1,0 +1,80 @@
+body{
+    background: rgb(182, 176, 176);
+}
+
+#voltar{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: white;
+    background: orange;
+    position: absolute; 
+}
+
+#linkVoltar{
+    text-decoration: none;
+    font-weight:bold;
+    color: black;
+    font-size: 15px;
+}
+
+
+#capa {
+    width: 15%;
+    margin: 0 auto;
+    display: block;
+}
+
+#centro{
+    margin: auto;
+    border-radius: 15px;
+    width: 500px;
+    height: 350px;
+    background: white;
+}
+
+
+#titulo{
+    font-weight:bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+#autor{
+    font-weight:bold;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#info{
+    text-align: justify;
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+
+.flex {
+    margin-left: 20%;
+    margin: 10px;
+    
+
+}
+
+#autorLivro {
+    font-weight:bold;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+
+#imgPreview {
+    width: 15%;
+    margin: 0 auto;
+    display: block;
+}

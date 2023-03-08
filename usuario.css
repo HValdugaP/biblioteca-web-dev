@@ -1,0 +1,95 @@
+body {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+#header{
+    width: 100%;
+    height: 150px;
+    background: rgb(159, 153, 153);
+    display:inline-block;
+    border-bottom: 8px solid orangered;
+}
+
+
+#nomeSite{
+    margin-left: 150px;
+    margin-top: 60px;
+    font-size: 35px;
+    color: white;
+}
+
+
+#links{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 90%;
+    margin-top: -65px;
+    color: white;
+    background: orange;
+    position: absolute; 
+}
+
+#paginaInicial{
+    position: absolute;
+    color: white;
+    background: orange;
+    margin-left: 53%;
+    border-radius: 10px;
+    margin-top: -65px;
+    height: 40px;
+    width: 300px;
+}
+
+#linkPaginaInicial{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+
+#login{
+    text-decoration: none;
+    font-weight:bold;
+    color: black;
+    font-size: 15px;
+}
+
+#cadLivro {
+    position: absolute;
+    color: white;
+    background: orange;
+    margin-left: 75%;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -65px;
+    height: 40px;
+    width: 200px;
+}
+
+#linkCadLivro {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+    margin-top: 25px;
+    position: absolute;
+    border-radius: 15px;
+    
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+

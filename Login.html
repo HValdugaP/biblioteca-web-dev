@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Biblioteca\Login</title>
+</head>
+<body>
+    <h1 id="titulo">Biblioteca</h1>
+        <div id="branco">
+
+            <div id="login">
+                <div id="headerLogin">Entrar</div> 
+
+                <div id = 'msgError'></div>
+                
+                    <div id="user">
+                        <input id="inputUser" type = "text" placeholder=" Usuário">
+                        <label id="labelUser" for="user">Usuário</label>
+                    </div>
+
+                    <div id="senha">
+                        <input id="inputSenha" type = "password" placeholder=" Senha">
+                        <label id="labelSenha" for="senha">Senha</label>
+                    </div>
+
+                    <div id="loginButton">
+                        <button onclick="entrar()" id="Login">Entrar
+                           
+                        </button>
+                    </div>
+                    
+                    <div>
+                        <hr>
+                    </div>
+
+                    <div>
+                        <p> Não tem uma conta?
+                            <a id ="cadastroRedirect" href="cadastro.html"> Cadastre-se </a>
+                        </p>
+                </div>
+
+            </div> 
+
+        </div>
+    
+</body>
+<script src="Login.js"></script>
+</html>
